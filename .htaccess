@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{THE_REQUEST} /index [NC]    
+RewriteRule ^ / [R=302,L,NE]  
